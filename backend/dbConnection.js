@@ -22,11 +22,11 @@ async function connectDB() {
     try {
         if (!client.topology || !client.topology.isConnected()) {
             await client.connect();
-          console.log("Connected to MongoDB Atlas");
+          //console.log("Connected to MongoDB Atlas");
         }
         return client;
     } catch (error) {
-        console.error("Failed to connect to MongoDB:", error.message);
+        //console.error("Failed to connect to MongoDB:", error.message);
         process.exit(1);
     }
 }

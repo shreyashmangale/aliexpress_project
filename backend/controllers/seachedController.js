@@ -3,7 +3,7 @@ const { client } = require("../dbConnection");
 
 const getSearchedProducts = async (req, res) => {
     const searched_name = req.params.searchedName;
-  //console.log(searched_name)
+  console.log(searched_name)
 
     try {
         await client.connect();
