@@ -5,8 +5,8 @@ const doc = {
         title: 'Aliexpress Project',
         description: 'Alma x project'
     },
-    host: 'http://localhost:4000.com',
-    schemes: ['https','http']
+    host: 'https://aliexpress-project-backend.onrender.com',
+    schemes: ['https']
 };
 
 const outputFile = './swagger-output.json';

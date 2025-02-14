@@ -5,10 +5,10 @@
     "description": "Aliexpress is a E-commerce web app project created using MERN Stack technology.",
     "version": "1.0.0"
   },
-  "host": "localhost:4000",
+  "host": "aliexpress-project-backend.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/new_arrivals": {
